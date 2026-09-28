@@ -1,15 +1,15 @@
 cff-version: 1.2.0
-title: "diffhoming: differential homing analysis for phage display peptide counts"
+title: "differential-homing: differential abundance analysis of phage display peptide counts"
 message: "If you use this software, please cite it using the metadata below."
 type: software
 authors:
   - family-names: Pleiko
     given-names: Karlis
     orcid: "https://orcid.org/0000-0002-1073-197X"
-repository-code: "https://github.com/KarlisPleiko/diffhoming"
-url: "https://github.com/KarlisPleiko/diffhoming"
+repository-code: "https://github.com/KarlisPleiko/differential-homing"
+url: "https://github.com/KarlisPleiko/differential-homing"
 abstract: >-
-  diffhoming identifies peptides that are differentially abundant in a target tissue relative
+  differential-homing identifies peptides that are differentially abundant in a target tissue relative
   to a control tissue in phage display biopanning experiments. Peptide count tables from
   sequenced samples are joined on peptide sequence, restricted to a reference peptide list, and
   tested with edgeR's negative-binomial framework using TMM normalisation and a
@@ -36,6 +36,6 @@ references:
         given-names: Karlis
         orcid: "https://orcid.org/0000-0002-1073-197X"
     repository-code: "https://github.com/KarlisPleiko/phader"
-    notes: "Produces the peptide count tables diffhoming consumes."
+    notes: "Produces the peptide count tables differential-homing consumes."
 # date-released: YYYY-MM-DD   # fill in when you cut the v1.0.0 GitHub release
 # doi: 10.5281/zenodo.XXXXXXX # fill in with the Zenodo DOI minted from that release

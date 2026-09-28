@@ -10,7 +10,7 @@ Everything that still needs a human. Delete this file once the repository is liv
 | `CITATION.cff` | `doi` | the Zenodo DOI (step 4) |
 | `README.md` | "How to cite" block | the same DOI, and the manuscript citation once it has one |
 
-Owner (`KarlisPleiko`), repository name (`diffhoming`), author (Karlis Pleiko, ORCID
+Owner (`KarlisPleiko`), repository name (`differential-homing`), author (Karlis Pleiko, ORCID
 0000-0002-1073-197X) and the MIT licence are already filled in. `CITATION.cff` also
 cross-references phader as a related work — add its DOI there once both are minted.
 
@@ -38,16 +38,16 @@ cross-references phader as a related work — add its DOI there once both are mi
 
 ## 3. Create the repository
 
-On github.com: **New repository**, owner `KarlisPleiko`, name `diffhoming`, Public, and **do
+On github.com: **New repository**, owner `KarlisPleiko`, name `differential-homing`, Public, and **do
 not** tick "Add a README", ".gitignore" or "license" — this bundle already contains all three.
 
 ```bash
-cd diffhoming
+cd differential-homing
 git init
 git add .
-git commit -m "diffhoming v1.0.0: differential homing analysis for phage display peptide counts"
+git commit -m "differential-homing v1.0.0: differential homing analysis for phage display peptide counts"
 git branch -M main
-git remote add origin git@github.com:KarlisPleiko/diffhoming.git
+git remote add origin git@github.com:KarlisPleiko/differential-homing.git
 git push -u origin main
 git tag -a v1.0.0 -m "Version used for the manuscript analysis"
 git push origin v1.0.0
@@ -62,9 +62,9 @@ onto the drop zone so their paths are preserved.
 
 ## 4. Mint a DOI
 
-1. In your Zenodo GitHub settings, switch `diffhoming` **On**. Do this *before* publishing the
+1. In your Zenodo GitHub settings, switch `differential-homing` **On**. Do this *before* publishing the
    release — a release published while the toggle is off is never archived.
-2. On GitHub: **Releases → Draft a new release**, tag `v1.0.0`, title `diffhoming v1.0.0`,
+2. On GitHub: **Releases → Draft a new release**, tag `v1.0.0`, title `differential-homing v1.0.0`,
    release label **None** (not pre-release), publish.
 3. Wait a minute or two, reload your Zenodo GitHub settings, and copy the DOI.
 4. Paste it into `CITATION.cff` and `README.md`, commit, push.
@@ -76,11 +76,11 @@ this code.
 
 Once both repositories are live and both DOIs exist:
 
-- [ ] Add the diffhoming link and DOI to phader's README, and the phader link and DOI to this
+- [ ] Add the differential-homing link and DOI to phader's README, and the phader link and DOI to this
       README, so a reader arriving at either finds the other.
 - [ ] Add phader's DOI to the `references` block in `CITATION.cff`.
 - [ ] In the manuscript's code-availability statement, cite both version DOIs and say which
-      tool did which part: phader counts peptides from the FASTQ files, diffhoming performs
+      tool did which part: phader counts peptides from the FASTQ files, differential-homing performs
       the differential abundance analysis on those counts.
 
 ## 6. Next release

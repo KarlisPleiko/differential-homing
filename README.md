@@ -1,11 +1,11 @@
-# diffhoming
+# differential-homing
 
 **Differential homing analysis for phage display peptide counts.**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![R >= 4.2](https://img.shields.io/badge/R-%3E%3D4.2-blue.svg)](https://www.r-project.org/)
 
-diffhoming takes peptide count tables from a biopanning experiment — one per sequenced sample —
+differential-homing takes peptide count tables from a biopanning experiment — one per sequenced sample —
 and identifies peptides that are differentially abundant in a target tissue relative to a
 control tissue, using edgeR's negative-binomial framework. It also reports each peptide's
 abundance relative to the injected input library, which is the quantity most often plotted in
@@ -200,8 +200,8 @@ display name, not peptide), H5 (role groups are not checked for overlap).
 
 ## How to cite
 
-> Pleiko, K. diffhoming: differential homing analysis for phage display peptide counts
-> (v1.0.0). Zenodo. DOI: *to be added on release*
+> Pleiko, K. differential-homing: differential abundance analysis of phage display peptide
+> counts (v1.0.0). Zenodo. DOI: *to be added on release*
 
 Machine-readable metadata is in [CITATION.cff](CITATION.cff).
 
@@ -212,4 +212,4 @@ MIT — see [LICENSE](LICENSE).
 ## Contact
 
 Questions and bug reports:
-[GitHub issues](https://github.com/KarlisPleiko/diffhoming/issues).
+[GitHub issues](https://github.com/KarlisPleiko/differential-homing/issues).
