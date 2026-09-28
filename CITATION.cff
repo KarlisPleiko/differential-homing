@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+title: "diffhoming: differential homing analysis for phage display peptide counts"
+message: "If you use this software, please cite it using the metadata below."
+type: software
+authors:
+  - family-names: Pleiko
+    given-names: Karlis
+    orcid: "https://orcid.org/0000-0002-1073-197X"
+repository-code: "https://github.com/KarlisPleiko/diffhoming"
+url: "https://github.com/KarlisPleiko/diffhoming"
+abstract: >-
+  diffhoming identifies peptides that are differentially abundant in a target tissue relative
+  to a control tissue in phage display biopanning experiments. Peptide count tables from
+  sequenced samples are joined on peptide sequence, restricted to a reference peptide list, and
+  tested with edgeR's negative-binomial framework using TMM normalisation and a
+  quasi-likelihood F-test, falling back to an assumed dispersion where a group lacks
+  replicates. Abundance relative to the injected input library is summarised separately with
+  propagated uncertainty. Outputs comprise the differential abundance table, ratio statistics,
+  volcano and ranked-ratio figures, and per-file diagnostics. Implemented as a local Shiny
+  application so that sequencing data never leave the user's machine.
+keywords:
+  - phage display
+  - biopanning
+  - differential abundance
+  - edgeR
+  - peptide library
+  - in vivo homing
+  - Shiny
+license: MIT
+version: 1.0.0
+references:
+  - type: software
+    title: "phader: peptide insert counting for T7 phage display sequencing data"
+    authors:
+      - family-names: Pleiko
+        given-names: Karlis
+        orcid: "https://orcid.org/0000-0002-1073-197X"
+    repository-code: "https://github.com/KarlisPleiko/phader"
+    notes: "Produces the peptide count tables diffhoming consumes."
+# date-released: YYYY-MM-DD   # fill in when you cut the v1.0.0 GitHub release
+# doi: 10.5281/zenodo.XXXXXXX # fill in with the Zenodo DOI minted from that release

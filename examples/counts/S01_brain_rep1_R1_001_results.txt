@@ -1,0 +1,18 @@
+"Unique peptides"  11      
+ "Total peptides"   31007   
+ 
+"Total unique peptides:" 11
+"Sum total peptides:" 31007
+"Peptides"	 "S01_brain_rep1_R1_001"	 
+ CGGGGGGGC          12000   
+ CSPWNRGVC          8000    
+ CKEFTYHAC          3000    
+ CNNRTPLKC          2500    
+ CPPWNRGVC          2000    
+ CYYHSDAMC          1800    
+ CFFEGKQWC          900     
+ CMMRSKLTC          500     
+ CQQWNRGVC          300     
+ CAAKTSRVC          5       
+ CWWDTYPQC          2       
+ 

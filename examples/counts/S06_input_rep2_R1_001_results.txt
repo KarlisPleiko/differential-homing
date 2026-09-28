@@ -1,0 +1,18 @@
+"Unique peptides"  11      
+ "Total peptides"   31052   
+ 
+"Total unique peptides:" 11
+"Sum total peptides:" 31052
+"Peptides"	 "S06_input_rep2_R1_001"	 
+ CGGGGGGGC          12100   
+ CAAKTSRVC          4200    
+ CNNRTPLKC          2500    
+ CMMRSKLTC          2100    
+ CSPWNRGVC          2100    
+ CPPWNRGVC          2000    
+ CYYHSDAMC          1800    
+ CQQWNRGVC          1750    
+ CKEFTYHAC          1600    
+ CFFEGKQWC          900     
+ CWWDTYPQC          2       
+ 

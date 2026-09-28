@@ -1,0 +1,18 @@
+"Unique peptides"  11      
+ "Total peptides"   36008   
+ 
+"Total unique peptides:" 11
+"Sum total peptides:" 36008
+"Peptides"	 "S04_liver_rep2_R1_001"	 
+ CGGGGGGGC          11800   
+ CMMRSKLTC          9500    
+ CQQWNRGVC          6400    
+ CNNRTPLKC          2500    
+ CPPWNRGVC          1950    
+ CYYHSDAMC          1800    
+ CFFEGKQWC          900     
+ CKEFTYHAC          700     
+ CSPWNRGVC          450     
+ CAAKTSRVC          6       
+ CWWDTYPQC          2       
+ 

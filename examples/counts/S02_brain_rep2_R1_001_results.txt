@@ -1,0 +1,18 @@
+"Unique peptides"  11      
+ "Total peptides"   32505   
+ 
+"Total unique peptides:" 11
+"Sum total peptides:" 32505
+"Peptides"	 "S02_brain_rep2_R1_001"	 
+ CGGGGGGGC          12500   
+ CSPWNRGVC          8600    
+ CKEFTYHAC          3300    
+ CNNRTPLKC          2500    
+ CPPWNRGVC          2100    
+ CYYHSDAMC          1800    
+ CFFEGKQWC          900     
+ CMMRSKLTC          450     
+ CQQWNRGVC          350     
+ CAAKTSRVC          4       
+ CWWDTYPQC          1       
+ 
