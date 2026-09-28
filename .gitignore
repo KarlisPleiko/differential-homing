@@ -1,0 +1,37 @@
+# --- sequencing data, count tables and results: never commit these ---
+data/
+results/
+outputs/
+diff_homing_*/
+*.fastq
+*.fastq.gz
+*_results.txt
+*.xlsx
+diff_homing_outputs_*.zip
+
+# ...but the synthetic example inputs are part of the repository
+!examples/counts/*_results.txt
+!examples/reference_peptides.xlsx
+
+# --- R ---
+.Rhistory
+.Rapp.history
+.RData
+.Ruserdata
+*.Rproj.user/
+.Rproj.user
+*.Rcheck/
+
+# --- renv: keep the lockfiles, never the library ---
+renv/library/
+renv/local/
+renv/cellar/
+renv/staging/
+renv/python/
+renv/sandbox/
+.Rprofile
+
+# --- editors / OS ---
+.vscode/
+.idea/
+.DS_Store
