@@ -20,7 +20,7 @@ tables this app consumes.
 ## Reproducibility notice
 
 **v1.0.0 contains the analysis code used for the differential homing results in the
-accompanying manuscript.** `app.R` — every statistic and every plot — is published exactly as
+accompanying manuscript.** `app.R` — every statistic was published exactly as
 it was run, and the issues found while preparing this release are documented in
 [KNOWN_ISSUES.md](KNOWN_ISSUES.md) rather than fixed, so the published figures can be
 reproduced from this tag.
